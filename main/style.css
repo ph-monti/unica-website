@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 .logo {
     display: inline-block;
     margin-left: 300px;
-    /* margin-top: 15px; */
+    margin-top: 15px;
     background-color: black;
     color: white;
 }
