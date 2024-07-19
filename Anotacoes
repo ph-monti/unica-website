@@ -1,0 +1,22 @@
+* By default, 'display: block' elements will appear on the page stacked atop each other, each new element starting on a new line.
+
+* 'display: inline' elements do not start on a new line. They appear in line with whatever elements they are placed beside.
+
+* Padding and margin behave differently on inline elements.
+
+* 'display: inline-block' elements behave like inline elements, but with block-style padding and margin. 
+
+-- DIVS AND SPANS
+
+* Diferentemente de outros elementos como <p> e <strong>, divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything.
+
+* Div is a block-level element by default. It is commonly used as a container element to group other elements.
+
+* Divs allow us to divide the page into different blocks and apply styling to those blocks.
+
+* Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate.
+
+* If two vertically adjacent elements both have a margin set on them and their margins touch, the larger of the two margins remains and the smaller one disappears. This is known as margin collapsing.
+
+* Collapsing margins is only relevant in the vertical direction.
+
