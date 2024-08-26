@@ -1,0 +1,67 @@
+.banner img {
+    border-radius: 12px;  /* bordas arredondadas */
+    height: 300px;
+}
+
+.banner {
+    background-image: url("../img/banner-background2.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner div {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+    /* gap: 30px; */
+    height: 100%;
+}
+
+.banner div img {
+    padding: 10px;
+    border-radius: 0px;
+    margin-right: 60px;
+    outline: 8px solid black;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    color: #636363;
+    margin: auto;
+    max-width: 15ch;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 100px;
+    position: relative;
+}
+
+.banner div::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url('../img/arrow-forward.svg');
+    background-repeat: no-repeat;
+    /* background-size: 60px; */
+    position: absolute;
+    top: 220px;
+    right: 0px;
+}
+
+.banner div::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url('../img/arrow-back.svg');
+    background-repeat: no-repeat;
+    /* background-size: 60px; */
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}

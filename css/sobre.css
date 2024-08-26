@@ -1,0 +1,106 @@
+.sobre {
+    background: white;
+}
+
+.sobre-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 40px;
+}
+
+.sobre-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.sobre-grid p {
+    align-self: center;
+}
+
+.sobre-container img {
+    max-width: 600px;
+}
+
+.sobre h1 {
+    color: rgb(0, 44, 109);
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.sobre-texto {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    /* margin-bottom: 60px; */
+}
+
+.unica {
+    font-weight: bold;
+    font-family: 'Fira Sans';
+}
+
+.sobre-titulo2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    max-width: 20ch;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.especialidades-container {
+    max-width: 1200px;
+    /* height: 800px; */
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.especialidades-div {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+.especialidades-span {
+    color: rgb(255, 217, 0);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.especialidades-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.especialidades-item {
+    display: grid;
+    justify-items: center;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.418);
+    border-radius: 6px;
+}
+
+.wrench {
+    width: 64px;
+}
+
+.especialidades-item h2 {
+    color: rgb(0, 44, 109);
+}
+
+.especialidades-item p {
+    font-size: 1.2rem;
+    max-width: 30ch;
+}
+
+/* @media (width <= 1200px) {
+    .especialidades-grid {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+} */

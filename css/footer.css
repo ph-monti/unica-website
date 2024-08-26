@@ -1,0 +1,80 @@
+.footer-background {
+    background: #122235;
+    margin-bottom: 1px;
+}
+
+.direitos-background {
+    background: #122235;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px 40px;
+    /* align-items: center; */
+    align-content: center;
+}
+
+.direitos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 25px;
+    text-align: center;
+}
+
+.unica-logo {
+    width: 200px;
+}
+
+.footer-h3 {
+    color: rgb(255, 217, 0);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.footer-container div p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.redes-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.redes-item p {
+    line-height: 1;
+}
+
+.redes-item a {
+    color: white;
+}
+
+.redes-item a:hover {
+    color: rgb(156, 156, 156);
+}
+
+.logos {
+    /* width: 10px; */
+    height: 20px;
+}
+
+/* .direitos-container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 1px;
+    background: #122235;
+    height: 80px;
+} */
+
+.direitos-texto {
+    color: white;
+    font-size: 0.8rem;
+}
