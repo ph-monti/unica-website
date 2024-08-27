@@ -83,9 +83,18 @@
     padding: 20px;
     background: rgba(255, 255, 255, 0.418);
     border-radius: 6px;
+    align-content: start;
+}
+
+.especialidades-item img {
+    width: 64px;
 }
 
 .wrench {
+    width: 64px;
+}
+
+.eletrica {
     width: 64px;
 }
 
