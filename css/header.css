@@ -97,3 +97,36 @@
     color: rgb(161, 137, 0);
     /* color: rgb(112, 112, 112); */
 }
+
+@media (width <= 850px) {
+    .unica-logo {
+        display: none;
+    }
+    .banner div {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    /* .banner h1 {
+        font-size: 2rem;
+        max-width: 10ch;
+        margin-right: 0;
+    } */
+}
+
+@media (width <= 700px) {
+    .top-header {
+        justify-content: center;
+    }
+    .menu {
+        display: none;
+    }
+    .header-container {
+        padding: 1px 0px 10px 0px;
+    }
+    .menu-container a {
+        width: 200px;
+        display: block;
+        margin: 0px auto;
+    }
+
+}
