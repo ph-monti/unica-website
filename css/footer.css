@@ -11,10 +11,11 @@
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 40px 40px;
     /* align-items: center; */
     align-content: center;
+    gap: 20px;
 }
 
 .direitos-container {

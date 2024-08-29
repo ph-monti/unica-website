@@ -113,6 +113,12 @@
     } */
 }
 
+@media (width <= 850px) {
+    .header-menu {
+        gap: 20px;
+    }
+}
+
 @media (width <= 700px) {
     .top-header {
         justify-content: center;
@@ -128,5 +134,4 @@
         display: block;
         margin: 0px auto;
     }
-
 }

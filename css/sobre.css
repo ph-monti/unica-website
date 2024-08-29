@@ -130,6 +130,7 @@
 @media (width <= 850px) {
     .sobre-grid {
         grid-template-columns: 1fr;
+        gap: 30px;
     }
     .sobre-grid img {
         /* max-width: 800px; */

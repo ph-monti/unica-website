@@ -11,7 +11,7 @@
     position: relative;
 }
 
-.banner div {
+.banner-conteudo {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -22,14 +22,14 @@
     height: 100%;
 }
 
-.banner div img {
+.banner-conteudo img {
     padding: 10px;
     border-radius: 0px;
     margin-right: 60px;
     outline: 8px solid black;
 }
 
-.banner h1 {
+.banner-conteudo h1 {
     font-size: 3rem;
     color: #636363;
     margin: auto;
@@ -66,15 +66,26 @@
     left: 50px;
 }
 
+@media (width <= 650px) {
+    .banner h1 {
+        margin-right: 0px;
+        margin: 0 auto;
+        padding-left: 100px;
+        /* text-align: center; */
+    }
+}
+
 @media (width <= 500px) {
+    .banner {
+        height: 350px;
+    }
     .banner h1 {
         font-size: 2.5rem;
     }
 }
 
-@media (width <= 650px) {
-    .banner h1 {
-        margin-right: 0px;
-        /* text-align: center; */
+@media (width <= 400px) {
+    .banner-conteudo h1 {
+        padding-left: 70px;
     }
 }
