@@ -6,9 +6,65 @@
     padding: 40px 40px;
     max-width: 1200px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* gap: 60px; */
+    align-items: center;
+    justify-items: center;
+}
+
+.contato-container img {
+    border-radius: 6px;
+    /* justify-self: start; */
 }
 
 .contato-container h2 {
     color: rgb(0, 44, 109);
     font-size: 2.5rem;
+}
+
+
+.formulario {
+    justify-self: start;
+}
+
+.formulario input, textarea {
+    display: block;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+
+.formulario label, input, textarea {
+    width: 100%;
+}
+
+.botao {
+    font-size: 1.05rem;
+    display: inline-block;
+    color: rgb(0, 44, 109);
+    background-color: rgb(255, 217, 0);
+    border-radius: 6px;
+    padding: 5px 20px;
+}
+
+@media (width <= 1200px) {
+    .contato-container img {
+        display: none;
+    }
+    .contato-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+
+@media (width <= 650px) {
+    .formulario h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (width <= 450px) {
+    .formulario label, input {
+        width: 200px;
+    }
 }

@@ -24,6 +24,25 @@
     width: 20px;
 }
 
+.search-box {
+    display: inline-block;
+}
+
+.search-box input {
+    font-size: 1rem;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: #E0E0E0;
+    border-radius: 3px;
+    border-style: none;
+    width: 250px;
+    /* box-shadow: inset 0 0 15px 0 #CCC; */
+}
+
+input:placeholder-shown {
+    font-style: italic;
+ }
+
 /* .links-contato {
     display: flex;
     gap: 20px;
@@ -60,6 +79,12 @@
     display: inline-block;
     width: auto;
     height: auto;
+}
+
+.logo-and-search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
