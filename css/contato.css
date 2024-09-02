@@ -40,7 +40,9 @@
 
 .botao {
     font-size: 1.05rem;
+    font-weight: 500;
     display: inline-block;
+    /* color: black; */
     color: rgb(0, 44, 109);
     background-color: rgb(255, 217, 0);
     border-radius: 6px;
