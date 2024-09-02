@@ -182,12 +182,6 @@ input:placeholder-shown {
 
 @media (width <= 400px) {
     .top-header p {
-        font-size: 0.9rem;
-    }
-}
-
-@media (width <= 350px) {
-    .top-header p {
         font-size: 0.8rem;
     }
 }

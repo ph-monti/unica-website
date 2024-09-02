@@ -188,3 +188,9 @@
         gap: 10px;
     }
 }
+
+@media (width <= 370px) {
+    .sobre-grid img {
+        max-width: 270px;
+    }
+}
