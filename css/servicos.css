@@ -1,0 +1,44 @@
+.servicos-background {
+    background-color: #ffffff;
+}
+
+.servicos {
+    padding: 40px 40px;
+}
+
+.servicos h1 {
+    text-align: center;
+    color: rgb(0, 44, 109);
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.servicos-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.texto {
+    padding: 40px 40px;
+}
+
+.texto h2 {
+    color: rgb(0, 44, 109);
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.texto ul {
+    list-style: initial;
+    margin: initial;
+    padding-left: 20px;
+}
+
+.texto li {
+    color: #5a5a5a;
+    font-size: 1.125rem;
+    line-height: 1.8;
+}

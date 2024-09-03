@@ -2,6 +2,12 @@
     background: white;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 40px;
+}
+
 .sobre-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -27,7 +33,7 @@
 
 .sobre h1 {
     color: rgb(0, 44, 109);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2.5rem;
     margin-bottom: 30px;
 }
@@ -39,8 +45,10 @@
 }
 
 .unica {
-    font-weight: bold;
-    font-family: 'Fira Sans';
+    /* font-weight: bold; */
+    /* font-family: 'Fira Sans'; */
+    color: rgb(255, 217, 0);
+    font-weight: 700;
 }
 
 .sobre-titulo2 {
@@ -88,6 +96,7 @@
     background: rgba(255, 255, 255, 0.418);
     border-radius: 6px;
     align-content: start;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .especialidades-item img {
