@@ -25,6 +25,7 @@
 }
 
 .search-box {
+    margin-top: 15px;
     display: inline-block;
     position: relative;
 }
