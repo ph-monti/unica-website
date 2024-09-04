@@ -1,9 +1,11 @@
 .servicos-background {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #f7f7f7;
 }
 
 .servicos {
     padding: 40px 40px;
+    margin-bottom: 40px;
 }
 
 .servicos h1 {
@@ -22,6 +24,7 @@
 
 .texto {
     padding: 40px 40px;
+    /* background-color: #ffffff; */
 }
 
 .texto h2 {
@@ -46,5 +49,42 @@
 @media (width <= 1000px) {
     .servicos-item {
         grid-template-columns: 1fr;
+    }
+    .servicos-item .imagem img {
+        min-width: 90vw;
+        /* max-width: 200px; */
+    }
+    .servicos-item div:nth-child(1) {
+        order: 2;
+    }
+    .servicos-item div:nth-child(2) {
+        order: 1;
+    }
+    .servicos-item div:nth-child(3) {
+        order: 3;
+    }
+    .servicos-item div:nth-child(4) {
+        order: 4;
+    }
+    .servicos-item div:nth-child(5) {
+        order: 6;
+    }
+    .servicos-item div:nth-child(6) {
+        order: 5;
+    }
+    .servicos-item div:nth-child(7) {
+        order: 7;
+    }
+    .servicos-item div:nth-child(8) {
+        order: 8;
+    }
+}
+
+@media (width <= 800px) {
+    .servicos h1 {
+        font-size: 2rem;
+    }
+    .texto h2 {
+        font-size: 1.8rem;
     }
 }
