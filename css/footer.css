@@ -75,15 +75,34 @@
 }
 
 .footer-item h3 {
-    color: rgb(255, 217, 0);
+    color: #ffec00;
     font-size: 1.2rem;
     margin-bottom: 10px;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .footer-item p, a {
     font-size: 0.875rem;
     font-size: 0.875rem;
+}
+
+.contato-whatsapp {
+    width: 250px;
+    background-color: rgba(37, 211, 102, 0.8);
+    background-color: rg;
+    padding: 8px 15px;
+    border-radius: 100px;
+    /* border: 3px solid rgb(25, 156, 73); */
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.contato-whatsapp a {
+    display: flex;
+    gap: 15px;
+    color: #000000;
+    /* font-size: 1rem; */
 }
 
 @media (width <= 850px) {
