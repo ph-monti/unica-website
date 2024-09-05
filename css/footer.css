@@ -105,6 +105,15 @@
     /* font-size: 1rem; */
 }
 
+@media (width <= 1000px) {
+    .contato-whatsapp {
+        width: 16px;
+    }
+    .contato-whatsapp a {
+        font-size: 0px;
+    }
+}
+
 @media (width <= 850px) {
     .footer-container {
         grid-template-columns: 1fr 1fr 1fr;
