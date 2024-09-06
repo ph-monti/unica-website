@@ -3,14 +3,42 @@
     align-items: center;
     justify-content: end;
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 30px;
+    margin: 0 auto;
+    gap: 50px;
+    padding: 8px 30px;
 }
 
-.top-header img {
-    padding: 10px;
+.social-media-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone-icons {
+    display: flex;
+    gap: 10px;
+}
+
+/* tamanho dos icones do telefone e whatsapp */
+.phone-icons img {
     width: 20px;
+}
+
+
+.linkedin-icon {
+    width: 16px;
+}
+
+.top-header .instagram-icon {
+    width: 16px;
+}
+
+.top-header .facebook-icon {
+    width: 24px;
+}
+
+.top-header .youtube-icon {
+    width: 16px;
 }
 
 .search-box {
@@ -147,6 +175,12 @@
     }
     .header-container {
         padding: 1px 0px 10px 0px;
+    }
+}
+
+@media (width <= 600px) {
+    .social-media-links {
+        display: none;
     }
 }
 

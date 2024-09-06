@@ -52,12 +52,21 @@
 }
 
 .redes-item a:hover {
-    color: rgb(156, 156, 156);
+    color: rgb(190, 190, 190);
 }
 
 .logos {
     /* width: 10px; */
     height: 20px;
+    background-color: #EEEFF1;
+    border-radius: 4px;
+}
+
+.linkedin-logo {
+    width: 12px;
+    height: 12px;
+    padding: 4px;
+    display: inline-block;
 }
 
 /* .direitos-container {
