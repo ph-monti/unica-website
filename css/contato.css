@@ -98,6 +98,39 @@
     }
     .contato-container img {
         max-width: 400px;
+        object-fit: cover;
+    }
+}
+
+@media (width <= 600px) {
+    .contato-container {
+        justify-items: start;
+    }
+    .input-container input,
+    .input-container textarea {
+        width: 100%;
+    }
+    .formulario {
+        justify-self: start;
+    } 
+}
+
+@media (width <= 500px) {
+    .contato-container img {
+        max-width: 350px;
+    }
+}
+
+@media (width <= 450px) {
+    .contato-container img {
+        max-width: 280px;
+    }
+}
+
+@media (width <= 400px) {
+    .input-container input,
+    .input-container textarea {
+        width: 90%;
     }
 }
 

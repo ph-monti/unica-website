@@ -129,8 +129,17 @@
     }
 }
 
+@media (width <= 500px) {
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media (width <= 400px) {
     .footer-container img {
         display: none;
+    }
+    .footer-contato {
+        grid-column: 1 / -1;
     }
 }
