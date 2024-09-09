@@ -1,0 +1,35 @@
+.sobre-h-conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+    padding: 40px 40px;
+}
+
+.sobre-h-conteudo > h1 {
+    color: #111111;
+    margin-bottom: 40px;
+}
+
+.missao-visao-valores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.msv-item {
+    max-width: 28ch;
+}
+
+.msv-item div {
+    margin-bottom: 30px;
+}
+
+.msv-item h2 {
+    margin-bottom: 5px;
+}
+
+.square {
+    width: 250px;
+    height: 250px;
+    background-color: #9ca5ad;
+}
