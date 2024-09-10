@@ -17,6 +17,11 @@
 .phone-icons {
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.phone-icons p:first-of-type {
+    margin-right: 30px;
 }
 
 /* tamanho dos icones do telefone e whatsapp */
