@@ -108,16 +108,6 @@
     line-height: 1.7;
 }
 
-.fa-brands, .fa-solid {
-    font-size: 16px;
-    /* color: #0070b8; */
-    color: #363636;
-}
-
-.fa-whatsapp {
-    font-size: 20px;
-}
-
 .sobre2-bg {
     max-width: 1200px;
     margin: 0 auto;

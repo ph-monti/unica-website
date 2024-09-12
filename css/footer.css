@@ -69,6 +69,14 @@
     display: inline-block;
 }
 
+.fa-brands.footer-icon {
+    color: #122235;
+    background-color: #ffffffff;
+    padding: 2px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
 /* .direitos-container {
     display: grid;
     align-items: center;

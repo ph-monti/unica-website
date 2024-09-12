@@ -29,6 +29,15 @@
     width: 20px;
 }
 
+.fa-brands, .fa-solid {
+    font-size: 16px;
+    /* color: #0070b8; */
+    color: #363636;
+}
+
+.fa-whatsapp {
+    font-size: 20px;
+}
 
 .linkedin-icon {
     width: 16px;
