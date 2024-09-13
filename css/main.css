@@ -66,6 +66,15 @@
     left: 50px;
 }
 
+@media (width <= 800px) {
+    .banner div::before {
+        display: none;
+    }
+    .banner div::after {
+        display: none;
+    }
+}
+
 @media (width <= 650px) {
     .banner h1 {
         margin-right: 0px;

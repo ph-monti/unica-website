@@ -133,6 +133,15 @@
     }
 }
 
+@media (width <= 850px) {
+    .contato-container2 div {
+        flex-direction: column;
+    }
+    .contato-container2 div p {
+        margin-bottom: 10px;
+    }
+}
+
 @media (width <= 650px) {
     .formulario h2 {
         font-size: 1.5rem;
@@ -140,6 +149,9 @@
     .contato-container img {
         max-width: 400px;
         object-fit: cover;
+    }
+    .contato-container2 div h2 {
+        font-size: 1.5rem;
     }
 }
 
