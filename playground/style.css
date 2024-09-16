@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0px;
+}
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.header-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.unica-logo {
+    width: 200px;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.menu-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: end;
+    padding: 40px 0px;
+    gap: 100px;
+}
+
+.menu-and-search-bar nav {
+    margin-bottom: 20px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 20px;
+
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.search-bar input {
+    width: 89%;
+}
+
+.search-bar input, button {
+    height: 50px;
+}
