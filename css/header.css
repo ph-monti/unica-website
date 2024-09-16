@@ -181,11 +181,24 @@
 }
 
 @media (width <= 700px) {
+    .logo {
+        width: 150px;
+    }
+    .header-menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 0px;
+    }
+    .search-box {
+        display: none;
+    }
     .top-header {
         justify-content: center;
     }
-    .menu {
-        display: none;
+    .not-implemented {
+        background-color: red;
+        display: none !important;
     }
     .header-container {
         padding: 1px 0px 10px 0px;
@@ -201,5 +214,8 @@
 @media (width <= 400px) {
     .top-header p {
         font-size: 0.8rem;
+    }
+    .header-menu a {
+        font-size: .85rem;
     }
 }
