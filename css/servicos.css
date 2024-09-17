@@ -74,8 +74,11 @@
         grid-template-columns: 1fr;
     }
     .servicos-item .imagem img {
-        min-width: 90vw;
+        /* min-width: 90vw; */
         /* max-width: 200px; */
+    }
+    .imagem img {
+        width: 95vw;
     }
     .servicos-item div:nth-child(1) {
         order: 2;
