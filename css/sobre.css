@@ -158,6 +158,21 @@
     }
 }
 
+@media (width <= 800px) {
+    .sobre-container {
+        padding: 40px 20px;
+    }
+    .especialidades-container {
+        padding: 60px 20px;
+    }
+    .contato-container {
+        padding: 40px 20px !important;
+    }
+    .contato-container2 {
+        padding: 40px 20px !important;
+    }
+}
+
 @media (width <= 650px) {
     .sobre-grid img {
         max-width: 400px;
