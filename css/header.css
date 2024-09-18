@@ -32,7 +32,9 @@
 .fa-brands, .fa-solid {
     font-size: 16px;
     /* color: #0070b8; */
-    color: #363636;
+
+    /* color: #363636; */
+    color: #555555;
 }
 
 .fa-whatsapp {
