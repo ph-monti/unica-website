@@ -10,6 +10,19 @@
     position: relative;
 }
 
+.produtos-sidebar-titulo {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    padding-left: 30px;
+    color: #ffffff;
+    width: 222px;
+    background-color: #0070b8;
+    position: absolute;
+    left: -100px;
+    top: 90px;
+}
+
 .produtos-sidebar {
     padding: 20px 30px;
     padding-left: 50px;
@@ -19,7 +32,7 @@
     list-style: square;
     position: absolute;
     left: -100px;
-    top: 90px;
+    top: 130px;
 }
 
 .produtos-sidebar a {
@@ -78,6 +91,7 @@
     position: absolute;
     bottom: -18px;
     left: 80px;
+    line-height: initial;
 }
 
 .produto-botao:hover {

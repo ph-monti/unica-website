@@ -142,13 +142,21 @@
     }
 }
 
+@media (width <= 850px) {
+    .contato-container img {
+        padding: 20px;
+    }
+}
+
 @media (width <= 650px) {
     .formulario h2 {
         font-size: 1.5rem;
     }
     .contato-container img {
-        max-width: 400px;
-        object-fit: cover;
+        /* max-width: 400px; */
+        /* box-sizing: border-box;
+        padding: 0px 20px;
+        object-fit: cover; */
     }
     .contato-container2 div h2 {
         font-size: 1.5rem;
@@ -157,7 +165,10 @@
 
 @media (width <= 600px) {
     .contato-container {
-        justify-items: start;
+        /* justify-items: start; */
+    }
+    .contato-container img {
+        width: 80vw;
     }
     .input-container input,
     .input-container textarea {
@@ -170,13 +181,13 @@
 
 @media (width <= 500px) {
     .contato-container img {
-        max-width: 350px;
+        /* max-width: 350px; */
     }
 }
 
 @media (width <= 450px) {
     .contato-container img {
-        max-width: 280px;
+        /* max-width: 280px; */
     }
 }
 
