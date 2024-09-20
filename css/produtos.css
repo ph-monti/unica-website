@@ -7,7 +7,14 @@
     margin: 0 auto;
     max-width: 1200px;
     padding: 40px 20px;
-    position: relative;
+}
+
+.sidebar {
+    display: inline-block;
+}
+
+.produtos-div {
+    display: inline-block;
 }
 
 .produtos-sidebar-titulo {
@@ -16,11 +23,8 @@
     padding: 10px 0px;
     padding-left: 30px;
     color: #ffffff;
-    width: 222px;
+    width: 222.55px;
     background-color: #0070b8;
-    position: absolute;
-    left: -100px;
-    top: 90px;
 }
 
 .produtos-sidebar {
@@ -30,9 +34,6 @@
     background-color: #454a4e;
     margin-bottom: 30px;
     list-style: square;
-    position: absolute;
-    left: -100px;
-    top: 130px;
 }
 
 .produtos-sidebar a {
@@ -62,14 +63,21 @@
     display: grid;
     grid-template-columns: repeat(3, 250px);
     gap: 30px;
-    justify-content: center;
-    margin-bottom: 60px;
+    /* justify-content: center; */
+    /* margin-bottom: 60px; */
 }
 
 .produto-item {
     border: 1px solid #b2c0cd;
     width: 250px;
     position: relative;
+    height:fit-content;
+}
+
+.void {
+    border: initial;
+    width: 250px;
+    position: initial
 }
 
 .produto-nome {
