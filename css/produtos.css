@@ -1,107 +1,84 @@
 .produtos-bg {
-    background-color: white;
-    height: 1200px;
+    background-color: #ffffff;
 }
 
-.produtos-conteudo {
+.produtos {
     margin: 0 auto;
     max-width: 1200px;
-    padding: 40px 20px;
+    padding: 40px 0px;
+    display: flex;
+    gap: 40px;
 }
 
 .sidebar {
-    display: inline-block;
-}
-
-.produtos-div {
-    display: inline-block;
-}
-
-.produtos-sidebar-titulo {
-    display: inline-block;
+    width: 250px;
     box-sizing: border-box;
-    padding: 10px 0px;
-    padding-left: 30px;
+    margin-top: 43px;
+}
+
+.sidebar-titulo {
     color: #ffffff;
-    width: 222.55px;
     background-color: #0070b8;
+    padding: 10px 30px;
+    font-size: 18px;
 }
 
-.produtos-sidebar {
-    padding: 20px 30px;
-    padding-left: 50px;
-    display: inline-block;
+.sidebar-conteudo {
+    box-sizing: border-box;
     background-color: #454a4e;
-    margin-bottom: 30px;
+    padding: 15px 30px;
     list-style: square;
+    padding-left: 50px;
 }
 
-.produtos-sidebar a {
+.sidebar-conteudo a {
     display: inline-block;
     text-transform: uppercase;
-    color: #ffffff;
     font-size: 15px;
-    margin-bottom: 10px;
-}
-
-.produtos-sidebar li:last-of-type a {
-    margin-bottom: 0px;
-}
-
-.produtos-sidebar a:hover {
-    color: #cfcfcf;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1;
 }
 
 .produtos-subtitulo {
     text-transform: uppercase;
-    color: #4b4b4b;
-    margin-bottom: 20px;
-    padding-left: 200px;
+    color: #555555;
+    margin-bottom: 10px;
 }
 
 .produtos-lista {
-    display: grid;
-    grid-template-columns: repeat(3, 250px);
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
-    /* justify-content: center; */
-    /* margin-bottom: 60px; */
+    margin-bottom: 50px;
 }
 
-.produto-item {
+.produtos-item {
     border: 1px solid #b2c0cd;
     width: 250px;
     position: relative;
-    height:fit-content;
-}
-
-.void {
-    border: initial;
-    width: 250px;
-    position: initial
+    height: fit-content;
+    position: relative;
 }
 
 .produto-nome {
     border-top: 1px solid #b2c0cd;
-    display: block;
-    text-align: center;
-    padding: 10px 0px;
     color: #666666;
     font-weight: 600;
+    text-align: center;
     padding-top: 20px;
-    padding-bottom: 40px; 
+    padding-bottom: 40px;
 }
 
 .produto-botao {
     display: inline-block;
     background-color: #0070b8;
-    color: white;
-    padding: 10px 15px;
+    color: #ffffff;
+    padding: 12px 17px;
+    line-height: 1;
     position: absolute;
     bottom: -18px;
     left: 80px;
-    line-height: initial;
-}
-
-.produto-botao:hover {
-    background-color: #00568b;
+    font-size: 15px;
+    font-weight: 500;
 }

@@ -1,1 +1,0 @@
-https://stackoverflow.com/questions/67102482/how-can-i-make-a-div-100-height-align-with-two-other-divs-as-column-in-flexbox

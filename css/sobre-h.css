@@ -145,7 +145,7 @@
 }
 
 .sobre2-conteudo div p, ul {
-    line-height: 2rem;
+    /* line-height: 2rem; */
     color: #dbdbdb;
 }
 

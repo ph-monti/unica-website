@@ -6,50 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Awesome Fonts -->
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-09b459cf485d4b1f3304947240314c05.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <!-- ... -->
 </head>
 
 <body>
-    <header class="header">
-        <!-- <div class="top-header-bg">
+    <header class="header-bg">
+        <div class="top-header-bg">
             <div class="top-header">
 
             </div>
-        </div> -->
+        </div>
+
+        <div class="top-menu-bg">
+            <nav>
+                <ul class="top-menu-conteudo">
+                    <li> <a href="./">Home</a> </li>
+                    <li> <a href="./">Sobre a Unica</a> </li>
+                    <li> <a href="./">Serviços</a> </li>
+                    <li> <a href="./">Nossos Produtos</a> </li>
+                </ul>
+            </nav>
+        </div>
 
         <div class="menu-conteudo">
             <div class="unica-logo">
-                <img src="./img/LOGO_PRETO_AMARELO_01.png" alt="">
-            </div>
-
-            <div class="menu-and-search-bar">
-                <nav>
-                    <ul class="header-menu">
-                        <li> <a href="./index.html">Home</a> </li>
-                        <li> <a href="">Quem Somos</a> </li>
-                        <li> <a href="">Nossos Produtos</a> </li>
-                        <li> <a href="">Contato</a> </li>
-        
-                    </ul> 
-                </nav>
-                
-                <div class="search-bar">
-                    <form action="./">
-                        <input type="text" placeholder="O que você procura?">
-                        <button type="submit">Buscar</button>
-                    </form>
-                </div>
+                <a href="./index.html">
+                    <img src="./img/LOGO_PRETO_AMARELO_01.png" alt="">
+                </a>
 
             </div>
-            
+
+            <div class="search-bar">
+                <form class="busca" action="./">
+                    <input type="text" placeholder="O que você procura?">
+                    <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+                    <span class="detalhe"></span>
+                </form>
+            </div>
+
             <div class="header-orcamento">
-                <p>* Solicite um orçamento</p>
-                <p>11 96614-7138</p>
+                <!-- <span class="orcamento-texto">* Solicite um orçamento</span> -->
+                <span class="orcamento-texto">* Entre em contato conosco</span>
+                <span class="numero">35 3582-0529</span>
             </div>
         </div>
-        
+
     </header>
 
-    <img class="img" src="./img/IMG_0640-720.png" alt="">
+    <!-- <img class="img" src="./img/IMG_0640-720.png" alt=""> -->
 </body>
 
 </html>
