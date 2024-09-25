@@ -33,8 +33,9 @@
 }
 
 .contato-container2 div h2 {
+    font-family: 'Montserrat';
     font-size: 2rem;
-    color: #6b6b6b;
+    color: #808080;
     margin-bottom: 10px;
     letter-spacing: 1px;
 }

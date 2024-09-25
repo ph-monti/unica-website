@@ -30,7 +30,8 @@
 }
 
 .banner-conteudo h1 {
-    font-size: 3rem;
+    font-family: 'Montserrat';
+    font-size: 2.75rem;
     color: #636363;
     margin: auto;
     max-width: 15ch;

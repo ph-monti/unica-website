@@ -1,6 +1,27 @@
+footer {
+    font-family: 'Montserrat';
+}
+
+.footer-container p {
+    color: #0070b8;
+    font-weight: 400;
+}
+
+.footer-border-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-border {
+    background-color: #0070b8;
+    max-width: 1400px;
+    width: 100%;
+    height: 1px;
+}
+
 .footer-background {
-    box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.5);
-    background: #122235;
+    /* box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.5); */
+    background: #ffffff;
     margin-bottom: 1px;
 }
 
@@ -9,6 +30,7 @@
 }
 
 .footer-container {
+    /* border-top: 1px solid #0070b8; */
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -26,13 +48,13 @@
     text-align: center;
 }
 
-.unica-logo {
+.unica-logo2 {
     width: 200px;
 }
 
-.footer-container div p {
-    color: white;
-    font-size: 0.875rem;
+.footer-container p {
+    font-weight: 500;
+    font-size: 1rem;
     line-height: 1.6;
 }
 
@@ -71,7 +93,7 @@
 
 .fa-brands.footer-icon {
     color: #122235;
-    background-color: #ffffffff;
+    /* background-color: #ffffffff; */
     padding: 2px;
     font-size: 16px;
     border-radius: 4px;
@@ -92,10 +114,12 @@
 }
 
 .footer-item h3 {
-    color: #ffec00;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    font-weight: 400;
+    /* color: #ffec00; */
+    font-size: 1rem;
+    /* margin-bottom: 10px; */
+    color: #00619d;
+    font-weight: 600;
+    line-height: 1.6;
 }
 
 .footer-item p, a {
