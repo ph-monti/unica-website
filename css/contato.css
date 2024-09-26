@@ -117,6 +117,10 @@
     margin-bottom: 20px;
 }
 
+.botao:hover {
+    background-color: rgb(255, 231, 96);
+}
+
 @media (width <= 1200px) {
     .contato-container {
         justify-items: initial;
