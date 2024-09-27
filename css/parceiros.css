@@ -44,6 +44,12 @@
     }
 }
 
+@media (width <= 800px) {
+    .parceiros-conteudo {
+        padding: 40px 20px;
+    }
+}
+
 @media (width <= 650px) {
     .parceiros-subtitulo {
         font-size: 1.8rem;

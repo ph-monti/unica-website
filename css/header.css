@@ -193,3 +193,18 @@ button {
         padding-top: 5px;
     }
 }
+
+@media (width < 450px) {
+    .header-orcamento .numero {
+        font-size: 20px;
+    }
+    .header-orcamento .orcamento-texto {
+        font-size: 14px;
+    }
+    .unica-logo {
+        width: 120px !important;
+    }
+    .menu-conteudo {
+        height: 65px;
+    }
+}
