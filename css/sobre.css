@@ -33,6 +33,7 @@
 
 .sobre h1 {
     color: rgb(0, 44, 109);
+    color: #00619e;
     font-weight: 500;
     font-size: 2.5rem;
     margin-bottom: 30px;
@@ -106,6 +107,7 @@
 .especialidades-item i {
     font-size: 36px;
     color: rgb(0, 44, 109);
+    color: #00619e;
 }
 
 .wrench {
@@ -118,6 +120,7 @@
 
 .especialidades-item h2 {
     color: rgb(0, 44, 109);
+    color: #00619e;
 }
 
 .especialidades-item p {
