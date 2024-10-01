@@ -16,29 +16,29 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: end;
-    /* gap: 30px; */
     height: 100%;
+    align-items: center;
+    gap: 60px;
 }
 
-.banner-conteudo img {
+.banner-conteudo .unica-logo2 {
     padding: 10px;
     border-radius: 0px;
-    margin-right: 60px;
     outline: 8px solid black;
+}
+
+.imagem-cotainer {
+    justify-self: end;
 }
 
 .banner-conteudo h1 {
     font-family: 'Montserrat';
     font-size: 2.75rem;
     color: #636363;
-    margin: auto;
+    /* margin: auto; */
     max-width: 15ch;
     font-weight: 400;
     text-align: left;
-    margin-right: 100px;
-    position: relative;
 }
 
 .banner div::after {
@@ -76,18 +76,16 @@
     }
 }
 
-@media (width <= 650px) {
-    .banner h1 {
-        margin-right: 0px;
-        margin: 0 auto;
-        padding-left: 100px;
-        /* text-align: center; */
-    }
+@media (width <= 750px) {
     .banner-conteudo {
         grid-template-columns: 1fr;
     }
-    .unica-logo2 {
+    .imagem-cotainer {
         display: none;
+    }
+    .banner-conteudo h1 {
+        justify-self: center;
+        text-align: center;
     }
 }
 
@@ -97,14 +95,5 @@
     }
     .banner h1 {
         font-size: 2.5rem;
-    }
-}
-
-@media (width <= 450px) {
-    .banner-conteudo {
-        align-items: center;
-        justify-content: center;
-        padding-left: 0px;
-        margin: initial;
     }
 }

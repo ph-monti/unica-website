@@ -21,6 +21,18 @@
     text-transform: uppercase;
 }
 
+.sobre-h-conteudo h1 > span {
+    color: #0070b8;
+} 
+
+.sobre-h-conteudo > h1::before {
+    display: block;
+    content: "";
+    width: 140px;
+    height: 5px;
+    background-color: #0070b8;
+}
+
 .texto-amarelo {
     color: #ffd000;
 }
@@ -42,6 +54,10 @@
 
 .msv-item {
     max-width: 28ch;
+}
+
+.msv-item > p {
+    line-height: 1.7;
 }
 
 .msv-item div {
@@ -103,9 +119,14 @@
 .sobre-lista {
     color: #666666;
     list-style: initial;
+    list-style: square;
     margin: initial;
     padding-left: 30px;
     line-height: 1.7;
+}
+
+.sobre-lista li::marker {
+    color: #0070b8;
 }
 
 .sobre2-bg {
